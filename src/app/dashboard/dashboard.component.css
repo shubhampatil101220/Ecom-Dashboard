@@ -1,0 +1,29 @@
+.body{
+    background-color: #9f4cf1;
+    background-color: rgb(111, 185, 227);
+    background-color: #eaeded;
+   
+}
+a,.head span{
+    text-decoration: none;
+    cursor: pointer;
+    color: gray;
+
+}
+
+.chart{
+    height: 50px;
+}
+.Sales-overview{
+    height: 430px;
+}
+table tbody tr{
+    font-size: 12px;
+}
+table tbody tr td button{
+    width: 120px;
+}
+table thead tr  th input,table tbody tr  td input{
+    margin-left: 10px;
+    padding: 7px;
+}

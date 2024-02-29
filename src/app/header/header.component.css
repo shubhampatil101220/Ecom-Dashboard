@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+a::after{
+    color: red;
+}
+.search-input{
+    width: 250px;
+    height: 40px;
+    padding: 0 40px;
+    margin-top: 5px;
+    color: gray;
+    background-color: #eaeded;
+    
+}
+.iconc{
+    background-color: #eaeded;
+}
+.search-icon{
+    margin-left: -235px;
+    margin-top: 10px;
+    color: gray;
+}
+.dropdown-menu[data-bs-popper]{
+    right: 0 !important;
+    width: fit-content;
+    left: inherit;
+}

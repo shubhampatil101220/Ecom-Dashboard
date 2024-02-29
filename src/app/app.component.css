@@ -1,0 +1,59 @@
+.sidebar{
+    width: 15%;
+}
+
+.content{
+    width: 85%;
+}
+
+.toggle-icon{
+    display: none;
+    cursor: pointer;
+    align-self: start;
+  margin-top: 23px;
+  margin-inline: 10px;
+
+}
+.d-sidebar{
+    display: block;
+}
+
+@media screen and (max-width: 1165px) {
+    .sidebar{
+        width: 20%;
+    }
+    
+    .content{
+        width: 80%;
+    }
+  }
+ 
+  @media screen and (max-width: 1070px) {
+    .sidebar{
+        width: 25%;
+    }
+   
+    .content{
+        width: 75%;
+    }
+  }
+
+
+  @media screen and (max-width: 885px) {
+    .sidebar{
+        width: 30%;
+    }
+
+    .d-sidebar{
+        display: none;
+    }
+
+    .toggle-icon{
+        display: flex;
+        align-items: center;
+    }
+   
+    .content{
+        width: 100%;
+    }
+  }

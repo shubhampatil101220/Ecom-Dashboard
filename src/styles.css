@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box ;
+ 
+}
+body{
+    width: 100%;
+    background-color: #eaeded;
+    overflow: hidden;
+}
+.sidebar{
+    height: 100vh;
+    background: rgb(1, 6, 64);
+    width: 50px;
+    overflow-y:scroll;
+}
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sidebar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
