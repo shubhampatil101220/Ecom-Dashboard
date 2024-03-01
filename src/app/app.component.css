@@ -1,22 +1,81 @@
+
+.close-logo {
+    font-size: 20px;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
 .sidebar{
     width: 15%;
+    overflow-y:scroll;
 }
-
 .content{
     width: 85%;
 }
 
-.toggle-icon{
+.sidebar::-webkit-scrollbar {
     display: none;
-    cursor: pointer;
-    align-self: start;
-  margin-top: 23px;
-  margin-inline: 10px;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sidebar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.head {
+    height: 25px;
+    font-weight: bold;
+    line-height: 20px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.head1 {
+    height: 25px;
+    font-weight: bold;
+    line-height: 20px;
+    width: 120px;
+    border-radius: 8px;
+}
+a:hover{
+background-color: rgba(210, 219, 227, 0.78);
+border-radius: 3px;
+color: aliceblue;
+font-weight: bold;
 
 }
-.d-sidebar{
-    display: block;
+.side-item{
+    font-weight: 600;
+    margin-left: -30px;
+    padding-left: -10px;
+    margin-right: 0;   
+    line-height: 35px;
 }
+.container-fluid ul li a{
+   display: flex;
+    justify-content: space-between;
+}
+.container-fluid ul li ul li{
+   
+    margin-left: -25px;
+    color: gray;
+}
+.fa-angle-right{ 
+    margin-top: 7px;
+  
+}
+
+.nav-link span{
+    white-space: nowrap;
+}
+
+
 
 @media screen and (max-width: 1165px) {
     .sidebar{
@@ -44,15 +103,6 @@
         width: 30%;
     }
 
-    .d-sidebar{
-        display: none;
-    }
-
-    .toggle-icon{
-        display: flex;
-        align-items: center;
-    }
-   
     .content{
         width: 100%;
     }

@@ -9,14 +9,9 @@
 body{
     width: 100%;
     background-color: #eaeded;
-    overflow: hidden;
+  
 }
-.sidebar{
-    height: 100vh;
-    background: rgb(1, 6, 64);
-    width: 50px;
-    overflow-y:scroll;
-}
+
 .sidebar::-webkit-scrollbar {
     display: none;
 }
